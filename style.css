@@ -111,7 +111,18 @@ button:hover{
     box-shadow:0 0 20px rgba(109,93,246,.45);
 }
 
-#message{
+.message{
     margin-top:18px;
     font-weight:600;
+    font-size:16px;
+    color:#f5d6b3;
+    text-align:center;
+}
+
+.message.success{
+    color:#7CFFB2;
+}
+
+.message.error{
+    color:#ff6b81;
 }
