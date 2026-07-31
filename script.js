@@ -7,7 +7,7 @@ function unlockPage() {
         message.innerHTML = "Unlocking...";
 
         setTimeout(function () {
-            window.location.href = "welcome.html";
+            window.location.href = "envelope.html";
         }, 1500);
 
     } else {
