@@ -40,3 +40,7 @@ function prevPhoto() {
     current = (current - 1 + images.length) % images.length;
     showPhoto();
 }
+
+window.onload = function () {
+    showPhoto();
+};
