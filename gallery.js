@@ -1,9 +1,9 @@
 const images = [
-    "images/photo1.jpg",
-    "images/photo2.jpg",
-    "images/photo3.jpg",
-    "images/photo4.jpg",
-    "images/photo5.jpg"
+    "file_00000000543c72078da120a8363a66fa",
+    "IMG_20260522_194521_539",
+    "IMG_20260719_222654_540",
+    "IMG_20250914_171346_690",
+    "IMG_20250331_154904_555"
 ];
 
 const captions = [
