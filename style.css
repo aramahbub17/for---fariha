@@ -19,7 +19,7 @@ body {
     max-width: 420px;
     padding: 35px 25px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.92);
     border-radius: 22px;
     border: 1px solid #d4af37;
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
@@ -38,6 +38,7 @@ p {
     margin-bottom: 20px;
 }
 
+/* Secret Password Box */
 input {
     width: 100%;
     max-width: 320px;
@@ -64,24 +65,27 @@ input:focus {
     box-shadow: 0 0 12px rgba(231,84,128,0.25);
 }
 
-
+/* Button */
 button {
     margin-top: 15px;
-    padding: 13px 30px;
+    padding: 14px 35px;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     background: #d4af37;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(212,175,55,0.25);
 }
 
 button:hover {
     background: #b8962e;
+    transform: translateY(-2px);
 }
 
+/* Message */
 .message {
     margin-top: 18px;
     font-weight: 600;
@@ -96,6 +100,7 @@ button:hover {
     color: #e75480;
 }
 
+/* Surprise Card */
 .card {
     margin-top: 25px;
     padding: 20px;
@@ -106,6 +111,7 @@ button:hover {
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
+/* Heart */
 .heart {
     color: #e75480;
     font-size: 25px;
