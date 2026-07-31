@@ -1,9 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
 body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #fff5f7, #f8d7da);
+    background: linear-gradient(135deg, #fff7f9, #ffd6df);
     color: #222;
 }
 
@@ -12,37 +19,61 @@ body {
     max-width: 420px;
     padding: 35px 25px;
     text-align: center;
-    background: rgba(255,255,255,0.85);
-    border-radius: 20px;
-    border: 1px solid #e7c27d;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 22px;
+    border: 1px solid #d4af37;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
 h1 {
     color: #d4af37;
     font-size: 28px;
+    margin-bottom: 15px;
 }
 
 p {
     color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 input {
-    background: #fff;
-    border: 1px solid #e7c27d;
+    width: 100%;
+    padding: 13px;
+    border-radius: 10px;
+    border: 1px solid #d4af37;
+    outline: none;
+    background: white;
     color: #222;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: #e75480;
 }
 
 button {
+    margin-top: 15px;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 10px;
     background: #d4af37;
     color: white;
-    border: none;
-    padding: 13px 25px;
-    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
     background: #b8962e;
+}
+
+.message {
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .message.success {
@@ -51,4 +82,19 @@ button:hover {
 
 .message.error {
     color: #e75480;
+}
+
+.card {
+    margin-top: 25px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    border: 1px solid #ffd6df;
+    display: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.heart {
+    color: #e75480;
+    font-size: 25px;
 }
