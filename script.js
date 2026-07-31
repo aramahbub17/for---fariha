@@ -4,7 +4,7 @@ function unlockPage() {
 
     if (password === "201017") {
         message.style.color = "#00ff88";
-        message.innerHTML = "✅ Unlocking... ❤️";
+        message.innerHTML = "Unlocking...";
 
         setTimeout(function () {
             window.location.href = "welcome.html";
