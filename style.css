@@ -40,18 +40,30 @@ p {
 
 input {
     width: 100%;
-    padding: 13px;
-    border-radius: 10px;
-    border: 1px solid #d4af37;
+    max-width: 320px;
+    padding: 16px 18px;
+    margin-top: 10px;
+    border-radius: 14px;
+    border: 1.5px solid #d4af37;
     outline: none;
-    background: white;
+    background: rgba(255,255,255,0.95);
     color: #222;
-    font-size: 15px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(212,175,55,0.15);
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: #999;
 }
 
 input:focus {
     border-color: #e75480;
+    box-shadow: 0 0 12px rgba(231,84,128,0.25);
 }
+
 
 button {
     margin-top: 15px;
