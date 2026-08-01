@@ -108,19 +108,22 @@ background:#5b4ae4;
 box-shadow:0 0 18px rgba(109,93,246,.5);
 }
 
-@media(max-width:480px){
-
-.slider{
-height:430px;
+.letter-btn{
+margin-top:22px;
+padding:14px 36px;
+border:none;
+border-radius:50px;
+background:linear-gradient(135deg,#ff5fa2,#ff8cc8);
+color:white;
+font-size:16px;
+font-weight:600;
+cursor:pointer;
+transition:.35s;
+box-shadow:0 10px 30px rgba(255,105,180,.35);
 }
 
-h1{
-font-size:24px;
-}
-
-button{
-padding:11px 22px;
-font-size:14px;
-}
-
+.letter-btn:hover{
+transform:translateY(-4px) scale(1.03);
+background:linear-gradient(135deg,#ff4b97,#ff74bd);
+box-shadow:0 15px 40px rgba(255,105,180,.55);
 }
