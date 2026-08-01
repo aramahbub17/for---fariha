@@ -66,7 +66,8 @@ margin-bottom:10px;
 .gallery-subtitle{
 font-size:15px;
 color:#d8d8d8;
-margin-bottom:20px;
+margin-bottom:22px;
+font-style:italic;
 }
 
 .slider{
@@ -136,6 +137,25 @@ background:#5b4ae4;
 box-shadow:0 0 18px rgba(109,93,246,.5);
 }
 
+.letter-btn{
+margin-top:22px;
+width:100%;
+padding:14px;
+border:none;
+border-radius:40px;
+background:linear-gradient(135deg,#ff5fa2,#ff8bc5);
+color:white;
+font-size:16px;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+
+.letter-btn:hover{
+transform:translateY(-3px);
+box-shadow:0 0 20px rgba(255,105,180,.45);
+}
+
 /* Mobile */
 
 @media (max-width:768px){
@@ -152,6 +172,10 @@ h1{
 font-size:24px;
 }
 
+.gallery-subtitle{
+font-size:14px;
+}
+
 .slider{
 height:420px;
 }
@@ -160,7 +184,8 @@ height:420px;
 font-size:15px;
 }
 
-button{
+button,
+.letter-btn{
 width:100%;
 padding:14px;
 font-size:15px;
@@ -168,7 +193,7 @@ font-size:15px;
 
 }
 
-/* PC */
+/* Large PC */
 
 @media (min-width:1200px){
 
@@ -184,11 +209,16 @@ h1{
 font-size:36px;
 }
 
+.gallery-subtitle{
+font-size:17px;
+}
+
 #caption{
 font-size:18px;
 }
 
-button{
+button,
+.letter-btn{
 font-size:17px;
 }
 
