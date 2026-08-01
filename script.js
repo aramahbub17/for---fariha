@@ -4,7 +4,7 @@ function unlockPage() {
     let message = document.getElementById("message");
     let music = document.getElementById("bgMusic");
 
-    if (password === "201017") {
+    if (password === "2007") {
 
         message.style.color = "#00ff88";
         message.innerHTML = "Unlocking...";
