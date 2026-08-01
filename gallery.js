@@ -43,3 +43,8 @@ function prevPhoto() {
 window.onload = function () {
     showPhoto();
 };
+
+// Auto Slide Every 4 Seconds
+setInterval(() => {
+    nextPhoto();
+}, 4000);
